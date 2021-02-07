@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        
+    <!-- start Icon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <!-- End Icon link -->
+    
+    <!-- start CSS link -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- End CSS link -->
+    
+    <!-- start fonts link -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <!-- End fonts link -->
+
+    <title>hungry moster</title>
+</head>
+<body>
+    <div class="container">
+        <h1>
+            <img src="./food-icon.jpg"/>
+            Hungry Moster
+        </h1>
+        <div class="flex">
+            <form class="flex" id="submit">
+                <input
+                        type="text"
+                        id="search"
+                        placeholder="Search for meals or keywords"
+                >
+                <button class="search-btn" type="submit">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+        </div>
+        <div id="countries"></div>
+        <div id="result-heading"></div>
+        <div id="meals" class="meals"></div>
+        <div id="single-meal"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
